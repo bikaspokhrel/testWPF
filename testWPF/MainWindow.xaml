@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="527*"/>
+            <ColumnDefinition Width="266*"/>
+        </Grid.ColumnDefinitions>
         <Button Content="Submit" HorizontalAlignment="Left" Margin="289,172,0,0" VerticalAlignment="Top" Width="123" Height="49" FontSize="24" Click="Button_Click"/>
+        <Button Grid.ColumnSpan="2" Content="Button" HorizontalAlignment="Left" Margin="460,277,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
